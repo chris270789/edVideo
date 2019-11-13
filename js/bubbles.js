@@ -141,7 +141,7 @@ if (bubbles[i].count < bubbles[i].radius) {
      	 //bubbles[i].count -= bubbleSpeed;
      	// bubbles[i].render();
 
-     	return  window.requestAnimationFrame(animate);
+     	return  window.requestAnimationFrame(animate(bubbles[i]));
      	//bubbles[i].render();
      	bubbles.push(tempBubble);
   // bubbles[i].count = canvas.height + bubbles[i].yOffset;
